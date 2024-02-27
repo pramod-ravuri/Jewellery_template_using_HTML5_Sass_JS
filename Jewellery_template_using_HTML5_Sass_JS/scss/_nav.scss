@@ -1,0 +1,23 @@
+nav {
+  box-shadow: $mainBoxSizing;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 100%;
+    li {
+      padding: 10px 0;
+      margin: $navlists-spacing;
+      a {
+        text-decoration: none;
+        color: $navLists-color;
+        transition: border-bottom 0.3s ease;
+        padding-bottom: 13px;
+      }
+      :hover {
+        border-bottom: 3px solid $HeaderBgColor;
+      }
+    }
+  }
+}

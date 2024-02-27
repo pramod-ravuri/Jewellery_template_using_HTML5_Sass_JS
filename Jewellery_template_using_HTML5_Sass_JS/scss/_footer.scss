@@ -1,0 +1,7 @@
+footer {
+  display: flex;
+  padding-top: $footer-padding;
+  span {
+    color: $footer-color;
+  }
+}

@@ -1,0 +1,13 @@
+:root {
+  --primary-bg-color: hsl(326, 97%, 31%);
+  --primary-color: #fff;
+}
+$MainHeight: 50px;
+$mainBoxSizing: 3px 5px 5px rgba(0, 0, 0, 0.15);
+$ContainerFont-family: "Roboto", sans-serif;
+$HeaderBgColor: var(--primary-bg-color);
+$HeaderHeight: 100px;
+$navlists-spacing: 5px 10px 0 30px;
+$navLists-color: #000000;
+$footer-padding: 20px;
+$footer-color: #000000;
